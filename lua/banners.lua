@@ -6,7 +6,7 @@ function nvim_banners.setup(config)
     if config["banners"] then
         banners = config["banners"]
     else
-        banners = require("nvim_banners.banners")
+        banners = require("ascii-banners")
     end
 
     if config["width_devider"] then
